@@ -14,12 +14,12 @@ class LoginJwtController extends Controller
         $credenciais = $request->all(['email', 'password']);
 
         Validator::make($credenciais, [
-            'email' => 'required|string',
+            'email' => 'required|string|email',
             'password' => 'required|string',
         ])->validate();
 
         if(!$token = auth('api')->attempt($credenciais)){
-            $message = new ApiMessages('Nao autorizado!');
+            $message = new ApiMessages('Usuário não encontrado');
             return response()->json($message->getMessage(), 401);
         }
 

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4eba5c85-3f83-4d70-932d-e328f610bf18" name="Default Changelist" comment="" />
+    <list default="true" id="4eba5c85-3f83-4d70-932d-e328f610bf18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Auth/LoginJwtController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Auth/LoginJwtController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/EmpresaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/EmpresaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +19,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -114,6 +124,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
       <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/lucascudo/laravel-pt-br-localization" />
     </include_path>
   </component>
   <component name="ProjectId" id="1cSoXg0Tba1S8QQi5dnEAqczf9W" />
@@ -156,6 +167,10 @@
       <workItem from="1590598828651" duration="10301000" />
       <workItem from="1590884627795" duration="9697000" />
       <workItem from="1590944175602" duration="6442000" />
+      <workItem from="1591277411727" duration="12396000" />
+      <workItem from="1591318414982" duration="597000" />
+      <workItem from="1591464237043" duration="1556000" />
+      <workItem from="1591547656969" duration="39000" />
     </task>
     <servers />
   </component>
@@ -183,10 +198,10 @@
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="141" y="6" key="SettingsEditor/0.0.1280.728@0.0.1280.728" timestamp="1590884656861" />
-    <state x="296" y="162" key="run.anything.popup" timestamp="1590891661204">
+    <state x="296" y="162" key="run.anything.popup" timestamp="1591277449274">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="296" y="162" key="run.anything.popup/0.0.1280.728@0.0.1280.728" timestamp="1590891661204" />
+    <state x="296" y="162" key="run.anything.popup/0.0.1280.728@0.0.1280.728" timestamp="1591277449274" />
     <state x="303" y="49" width="670" height="676" key="search.everywhere.popup" timestamp="1590536558539">
       <screen x="0" y="0" width="1280" height="728" />
     </state>

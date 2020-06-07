@@ -76,7 +76,7 @@ class EmpresaController extends Controller
     public function show($id)
     {
         try{
-            $empresa = auth('api')->user()->empresa()->with('user')->findOrFail($id);
+            $empresa = auth('api')->user()->empresa()->with('user', 'foto')->findOrFail($id);
 
             return response()->json([
                 'data' => $empresa
