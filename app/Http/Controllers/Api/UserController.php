@@ -33,7 +33,7 @@ class UserController extends Controller
             'password',
             'password_confirmation',
             'celular',
-            'tipo_cadastro',
+            'tipo_usuario',
         ]);
 
         Validator::make($data, [
