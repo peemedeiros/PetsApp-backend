@@ -24,6 +24,7 @@ class LoginJwtController extends Controller
         }
 
         return response()->json([
+            'user' => auth('api')->user(),
             'token' => $token
         ]);
 

@@ -24,6 +24,11 @@ class EmpresaController extends Controller
         return response()->json($empresas->paginate(10), 200);
     }
 
+    public function all(){
+        $empresas = $this->empresa->paginate(10);
+        return response()->json( $empresas, 200);
+    }
+
     public function store(Request $request)
     {
         $data = $request->all();

@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->string('celular');
-            $table->boolean('tipo_usuario');
+            $table->boolean('tipo_cadastro');
         });
     }
 

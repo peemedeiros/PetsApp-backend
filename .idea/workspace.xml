@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eba5c85-3f83-4d70-932d-e328f610bf18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Policies/UserPolicy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/Auth/LoginJwtController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/Auth/LoginJwtController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/EmpresaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/EmpresaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,13 +131,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1cSoXg0Tba1S8QQi5dnEAqczf9W" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
@@ -171,21 +177,31 @@
       <workItem from="1591318414982" duration="597000" />
       <workItem from="1591464237043" duration="1556000" />
       <workItem from="1591547656969" duration="39000" />
+      <workItem from="1591726331892" duration="351000" />
+      <workItem from="1591727252723" duration="1957000" />
+      <workItem from="1591807390890" duration="2465000" />
+      <workItem from="1591968362903" duration="97000" />
+      <workItem from="1591994098422" duration="559000" />
+      <workItem from="1592171033486" duration="14637000" />
+      <workItem from="1592266433923" duration="1085000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="232" y="22" key="#Notifications" timestamp="1590531435632">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="232" y="22" key="#Notifications/0.0.1280.728@0.0.1280.728" timestamp="1590531435632" />
-    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1590888598024">
+    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592172040526">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.728@0.0.1280.728" timestamp="1590888598024" />
+    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.728@0.0.1280.728" timestamp="1592172040526" />
     <state x="420" y="118" key="FileChooserDialogImpl" timestamp="1590885815735">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
@@ -198,13 +214,13 @@
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="141" y="6" key="SettingsEditor/0.0.1280.728@0.0.1280.728" timestamp="1590884656861" />
-    <state x="296" y="162" key="run.anything.popup" timestamp="1591277449274">
+    <state x="296" y="162" key="run.anything.popup" timestamp="1592188209226">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="296" y="162" key="run.anything.popup/0.0.1280.728@0.0.1280.728" timestamp="1591277449274" />
-    <state x="303" y="49" width="670" height="676" key="search.everywhere.popup" timestamp="1590536558539">
+    <state x="296" y="162" key="run.anything.popup/0.0.1280.728@0.0.1280.728" timestamp="1592188209226" />
+    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup" timestamp="1592175139796">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="303" y="49" width="670" height="676" key="search.everywhere.popup/0.0.1280.728@0.0.1280.728" timestamp="1590536558539" />
+    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup/0.0.1280.728@0.0.1280.728" timestamp="1592175139796" />
   </component>
 </project>

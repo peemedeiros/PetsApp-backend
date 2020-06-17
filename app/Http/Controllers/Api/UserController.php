@@ -33,7 +33,7 @@ class UserController extends Controller
             'password',
             'password_confirmation',
             'celular',
-            'tipo_usuario',
+            'tipo_cadastro',
         ]);
 
         Validator::make($data, [
@@ -62,13 +62,17 @@ class UserController extends Controller
 
     public function show($id)
     {
+
         try{
 
             $user = $this->user->findOrFail($id);
 
-            return response()->json([
-                'data' => $user
-            ], 200);
+            if($id == auth('api')->id()){
+
+                return response()->json([
+                    'data' => $user
+                ], 200);
+            }
 
         } catch (\Exception $e) {
             $message = new ApiMessages($e->getMessage());
@@ -78,6 +82,7 @@ class UserController extends Controller
 
     public function update(Request $request, $id)
     {
+
         $data = $request->all();
 
         Validator::make($data, [
@@ -94,14 +99,25 @@ class UserController extends Controller
         }
 
         try {
-            $user = $this->user->findOrFail($id);
-            $user->update($data);
 
-            return response()->json([
-                'data' => [
-                    'msg' => 'Usuário atualizado com sucesso'
-                ]
-            ], 200);
+            $user = $this->user->findOrFail($id);
+
+            if($id == auth('api')->id()){
+                $user->update($data);
+
+                return response()->json([
+                    'data' => [
+                        'msg' => 'Usuário atualizado com sucesso'
+                    ]
+                ], 200);
+            } else {
+                return response()->json([
+                    'data' => [
+                        'msg' => 'Voce nao tem permissao para alterar este usuario'
+                    ]
+                ], 401);
+            }
+
         } catch (\Exception $e){
             $message = new ApiMessages($e->getMessage());
             return response()->json($message->getMessage(), 401);

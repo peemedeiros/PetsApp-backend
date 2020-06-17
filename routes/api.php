@@ -14,6 +14,7 @@ Route::prefix('v1')->namespace('Api')->group(function (){
     Route::post('login', 'Auth\\LoginJwtController@login')->name('login');
     Route::get('logout', 'Auth\\LoginJwtController@logout')->name('logout');
     Route::get('refresh', 'Auth\\LoginJwtController@refresh')->name('refresh');
+    Route::get('empresas-cadastradas', 'EmpresaController@all')->name('empresas-cadastradas');
 
     Route::group(['middleware' => ['jwt.auth']], function (){
 
