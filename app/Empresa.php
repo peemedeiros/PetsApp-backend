@@ -11,7 +11,7 @@ class Empresa extends Model
 
     protected $fillable = [
         'user_id', 'razao_social', 'nome_fantasia', 'cnpj', 'telefone_empresa', 'cep',
-        'logradouro', 'bairro', 'cidade', 'uf', 'complemento', 'numero'
+        'logradouro', 'bairro', 'cidade', 'uf', 'complemento', 'numero', 'transporte'
     ];
 
     public function user()
@@ -22,5 +22,10 @@ class Empresa extends Model
     public function foto()
     {
         return $this->hasMany(EmpresaFotos::class);
+    }
+
+    public function categoria()
+    {
+        return $this->belongsToMany(Categoria::class, 'empresas_categorias');
     }
 }

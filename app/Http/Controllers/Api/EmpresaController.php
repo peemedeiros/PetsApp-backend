@@ -49,14 +49,29 @@ class EmpresaController extends Controller
 
         try {
             $data['user_id'] = auth('api')->user()->id;
-
             $empresa = $this->empresa->create($data);
+
+            var_dump($data['categorias']);
+            $categoriasArr = explode(',' , $data['categorias']);
+            var_dump($categoriasArr);
+
+            if(isset($data['categorias']) && count($categoriasArr)){
+                var_dump($data['categorias']);
+                $empresa->categoria()->sync($categoriasArr);
+            }
 
             if($images){
 
+                echo('passsooouuuuuu');
+
                 $imageUploaded = [];
 
-                foreach($images as $image){
+                if(!is_array($images)) $array = [$images];
+                else{
+                    $array = $images;
+                }
+
+                foreach($array as $image){
                     $path = $image->store('images', 'public');
                     $imageUploaded[] = ['foto' => $path, 'is_logo' => true];
                 }
@@ -81,7 +96,7 @@ class EmpresaController extends Controller
     public function show($id)
     {
         try{
-            $empresa = auth('api')->user()->empresa()->with('user', 'foto')->findOrFail($id);
+            $empresa = auth('api')->user()->empresa()->with('user', 'foto', 'categoria')->findOrFail($id);
 
             return response()->json([
                 'data' => $empresa
@@ -116,6 +131,10 @@ class EmpresaController extends Controller
 
             $empresa = auth('api')->user()->empresa()->findOrFail($id);
             $empresa->update($data);
+
+            if(isset($data['categorias']) && count($data['categorias'])){
+                $empresa->categoria()->sync($data['categorias']);
+            }
 
             if($images){
 

@@ -23,10 +23,16 @@ Route::prefix('v1')->namespace('Api')->group(function (){
                 'index','show','update', 'destroy'
             ]);
         });
-//
+
         //Rotas empresas
         Route::name('empresas.')->group(function () {
             Route::resource('empresas', 'EmpresaController');
+        });
+
+        //Rotas Categoria
+        Route::name('categorias.')->group(function () {
+            Route::get('categorias/{id}/empresas', 'CategoriaController@empresa');
+            Route::resource('categorias', 'CategoriaController');
         });
     });
 });

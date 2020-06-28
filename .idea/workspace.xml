@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eba5c85-3f83-4d70-932d-e328f610bf18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Categoria.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoriaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_26_014752_create_categorias_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_06_26_021303_create_empresas_categorias_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Empresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Empresa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/EmpresaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/EmpresaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jwt.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/jwt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_26_230912_create_table_empresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_26_230912_create_table_empresa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -136,7 +148,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../laravel/meuImovel" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -178,6 +190,10 @@
       <workItem from="1592266433923" duration="1085000" />
       <workItem from="1592524055762" duration="644000" />
       <workItem from="1592543460798" duration="74000" />
+      <workItem from="1593015108800" duration="9049000" />
+      <workItem from="1593104549385" duration="18608000" />
+      <workItem from="1593182569331" duration="17390000" />
+      <workItem from="1593285710001" duration="13535000" />
     </task>
     <servers />
   </component>
@@ -196,10 +212,10 @@
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.728@0.0.1280.728" timestamp="1592172040526" />
-    <state x="420" y="118" key="FileChooserDialogImpl" timestamp="1590885815735">
+    <state x="420" y="118" key="FileChooserDialogImpl" timestamp="1593186541828">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="420" y="118" key="FileChooserDialogImpl/0.0.1280.728@0.0.1280.728" timestamp="1590885815735" />
+    <state x="420" y="118" key="FileChooserDialogImpl/0.0.1280.728@0.0.1280.728" timestamp="1593186541828" />
     <state x="368" y="178" key="NewPhpClassDialog" timestamp="1590538023148">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
@@ -208,13 +224,13 @@
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="141" y="6" key="SettingsEditor/0.0.1280.728@0.0.1280.728" timestamp="1590884656861" />
-    <state x="296" y="162" key="run.anything.popup" timestamp="1592188209226">
+    <state x="296" y="162" key="run.anything.popup" timestamp="1593315357922">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="296" y="162" key="run.anything.popup/0.0.1280.728@0.0.1280.728" timestamp="1592188209226" />
-    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup" timestamp="1592175139796">
+    <state x="296" y="162" key="run.anything.popup/0.0.1280.728@0.0.1280.728" timestamp="1593315357922" />
+    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup" timestamp="1593194347984">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup/0.0.1280.728@0.0.1280.728" timestamp="1592175139796" />
+    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup/0.0.1280.728@0.0.1280.728" timestamp="1593194347984" />
   </component>
 </project>
