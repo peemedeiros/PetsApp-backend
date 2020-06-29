@@ -30,7 +30,7 @@ class CreateTableEmpresa extends Migration
             $table->string('complemento')->nullable();
             $table->string('numero');
             $table->tinyInteger('transporte');
-            $table->float('nota');
+            $table->float('nota')->default(5.0);
 
             $table->foreign('user_id')->references('id')->on('users');
         });

@@ -44,7 +44,8 @@ class EmpresaController extends Controller
             'bairro'            => ['required', 'string'],
             'cidade'            => ['required', 'string'],
             'uf'                => ['required', 'string'],
-            'numero'            => ['required', 'numeric']
+            'numero'            => ['required', 'numeric'],
+            'transporte'        => ['required', 'numeric']
         ])->validate();
 
         try {
@@ -124,7 +125,8 @@ class EmpresaController extends Controller
             'bairro'            => ['string'],
             'cidade'            => ['string'],
             'uf'                => ['string'],
-            'numero'            => ['numeric']
+            'numero'            => ['numeric'],
+            'transporte'        => ['numeric']
         ])->validate();
 
         try {
