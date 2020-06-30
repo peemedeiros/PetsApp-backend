@@ -4,7 +4,6 @@
     <list default="true" id="4eba5c85-3f83-4d70-932d-e328f610bf18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/EmpresaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/EmpresaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_26_230912_create_table_empresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_26_230912_create_table_empresa.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +187,8 @@
       <workItem from="1593182569331" duration="17390000" />
       <workItem from="1593285710001" duration="13632000" />
       <workItem from="1593356166231" duration="3220000" />
+      <workItem from="1593450472114" duration="66000" />
+      <workItem from="1593476298306" duration="1879000" />
     </task>
     <servers />
   </component>
