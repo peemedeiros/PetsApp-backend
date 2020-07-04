@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4eba5c85-3f83-4d70-932d-e328f610bf18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ServicoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/SubcategoriaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Servico.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ServicoFotos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Subcategoria.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_02_232745_create_subcategoria_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_02_234950_create_servicos_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_03_000321_create_servico_fotos_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Categoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Categoria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Empresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Empresa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/EmpresaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/EmpresaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +202,8 @@
       <workItem from="1593476298306" duration="1879000" />
       <workItem from="1593620844691" duration="4234000" />
       <workItem from="1593643693445" duration="2305000" />
+      <workItem from="1593711000473" duration="12299000" />
+      <workItem from="1593890592566" duration="7052000" />
     </task>
     <servers />
   </component>
@@ -204,14 +218,18 @@
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="232" y="22" key="#Notifications/0.0.1280.728@0.0.1280.728" timestamp="1590531435632" />
-    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592172040526">
+    <state x="94" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593894524429">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.728@0.0.1280.728" timestamp="1592172040526" />
-    <state x="420" y="118" key="FileChooserDialogImpl" timestamp="1593186541828">
+    <state x="94" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.728@0.0.1280.728" timestamp="1593894524429" />
+    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1593891950378">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="420" y="118" key="FileChooserDialogImpl/0.0.1280.728@0.0.1280.728" timestamp="1593186541828" />
+    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.728@0.0.1280.728" timestamp="1593891950378" />
+    <state x="420" y="118" key="FileChooserDialogImpl" timestamp="1593895414964">
+      <screen x="0" y="0" width="1280" height="728" />
+    </state>
+    <state x="420" y="118" key="FileChooserDialogImpl/0.0.1280.728@0.0.1280.728" timestamp="1593895414964" />
     <state x="368" y="178" key="NewPhpClassDialog" timestamp="1590538023148">
       <screen x="0" y="0" width="1280" height="728" />
     </state>

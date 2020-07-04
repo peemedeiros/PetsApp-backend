@@ -13,4 +13,9 @@ class Categoria extends Model
     {
         return $this->belongsToMany(Empresa::class, 'empresas_categorias');
     }
+
+    public function subCategoria()
+    {
+        return $this->belongsTo(Subcategoria::class, 'subcategoria');
+    }
 }

@@ -34,5 +34,15 @@ Route::prefix('v1')->namespace('Api')->group(function (){
             Route::get('categorias/{id}/empresas', 'CategoriaController@empresa');
             Route::resource('categorias', 'CategoriaController');
         });
+
+        //Rotas Subcategorias
+        Route::name('subcategorias.')->group(function () {
+            Route::resource('subcategorias', 'SubcategoriaController');
+        });
+
+        //Rotas Servicos
+        Route::name('servicos.')->group(function () {
+            Route::resource('servicos', 'ServicoController');
+        });
     });
 });

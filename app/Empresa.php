@@ -28,4 +28,9 @@ class Empresa extends Model
     {
         return $this->belongsToMany(Categoria::class, 'empresas_categorias');
     }
+
+    public function servico()
+    {
+        return $this->hasMany(Servico::class, 'id_empresa');
+    }
 }

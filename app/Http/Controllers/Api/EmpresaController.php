@@ -50,14 +50,12 @@ class EmpresaController extends Controller
 
         try {
             $data['user_id'] = auth('api')->user()->id;
+
             $empresa = $this->empresa->create($data);
 
-            var_dump($data['categorias']);
             $categoriasArr = explode(',' , $data['categorias']);
-            var_dump($categoriasArr);
 
             if(isset($data['categorias']) && count($categoriasArr)){
-                var_dump($data['categorias']);
                 $empresa->categoria()->sync($categoriasArr);
             }
 
@@ -97,7 +95,7 @@ class EmpresaController extends Controller
     public function show($id)
     {
         try{
-            $empresa = auth('api')->user()->empresa()->with('user', 'foto', 'categoria')->findOrFail($id);
+            $empresa = auth('api')->user()->empresa()->with('user', 'foto', 'categoria','servico')->findOrFail($id);
 
             return response()->json([
                 'data' => $empresa
