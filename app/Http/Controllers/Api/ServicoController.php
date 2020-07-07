@@ -23,6 +23,12 @@ class ServicoController extends Controller
         return response()->json($servicos, 200);
     }
 
+    public function all($id)
+    {
+        $servicos = $this->servico->where('id_empresa', '=', $id)->get();
+        return response()->json($servicos, 200);
+    }
+
     public function store(Request $request)
     {
         $data = $request->all();

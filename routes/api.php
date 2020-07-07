@@ -42,6 +42,7 @@ Route::prefix('v1')->namespace('Api')->group(function (){
 
         //Rotas Servicos
         Route::name('servicos.')->group(function () {
+            Route::get('servicos/empresa/{id}', 'ServicoController@all');
             Route::resource('servicos', 'ServicoController');
         });
     });
