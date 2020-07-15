@@ -20,7 +20,7 @@ class CreateServicoFotosTable extends Migration
             $table->string('foto');
             $table->boolean('is_thumb');
 
-            $table->foreign('servico_id')->references('id')->on('servicos');
+            $table->foreign('servico_id')->references('id')->on('servicos')->onDelete('cascade');
         });
     }
 

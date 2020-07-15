@@ -25,7 +25,7 @@ class EmpresaController extends Controller
     }
 
     public function all(){
-        $empresas = $this->empresa->paginate(10);
+        $empresas = $this->empresa->with('foto', 'categoria')->paginate(10);
         return response()->json( $empresas, 200);
     }
 

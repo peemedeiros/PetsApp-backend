@@ -20,7 +20,7 @@ class CreateTableEmpresaFoto extends Migration
             $table->string('foto');
             $table->boolean('is_logo');
 
-            $table->foreign('empresa_id')->references('id')->on('empresa');
+            $table->foreign('empresa_id')->references('id')->on('empresa')->onDelete('cascade');
         });
     }
 

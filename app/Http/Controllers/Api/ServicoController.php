@@ -39,8 +39,6 @@ class ServicoController extends Controller
 
             if($images){
 
-                echo('passsooouuuuuu');
-
                 $imageUploaded = [];
 
                 if(!is_array($images)) $array = [$images];

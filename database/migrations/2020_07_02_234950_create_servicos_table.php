@@ -21,7 +21,7 @@ class CreateServicosTable extends Migration
             $table->string('nome');
             $table->float('preco', 8, 2);
 
-            $table->foreign('id_empresa')->references('id')->on('empresa');
+            $table->foreign('id_empresa')->references('id')->on('empresa')->onDelete('cascade');
             $table->foreign('id_subcategoria')->references('id')->on('subcategoria');
         });
     }

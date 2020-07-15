@@ -4,7 +4,9 @@
     <list default="true" id="4eba5c85-3f83-4d70-932d-e328f610bf18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ServicoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ServicoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_26_231741_create_table_empresa_foto.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_26_231741_create_table_empresa_foto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_02_234950_create_servicos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_02_234950_create_servicos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_03_000321_create_servico_fotos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_03_000321_create_servico_fotos_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,6 +197,9 @@
       <workItem from="1593711000473" duration="12299000" />
       <workItem from="1593890592566" duration="7052000" />
       <workItem from="1594060111748" duration="9169000" />
+      <workItem from="1594139645346" duration="2016000" />
+      <workItem from="1594312432564" duration="4478000" />
+      <workItem from="1594666576743" duration="595000" />
     </task>
     <servers />
   </component>
@@ -217,10 +222,10 @@
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.728@0.0.1280.728" timestamp="1593891950378" />
-    <state x="420" y="118" key="FileChooserDialogImpl" timestamp="1594069862549">
+    <state x="420" y="118" key="FileChooserDialogImpl" timestamp="1594330533764">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="420" y="118" key="FileChooserDialogImpl/0.0.1280.728@0.0.1280.728" timestamp="1594069862549" />
+    <state x="420" y="118" key="FileChooserDialogImpl/0.0.1280.728@0.0.1280.728" timestamp="1594330533764" />
     <state x="368" y="178" key="NewPhpClassDialog" timestamp="1590538023148">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
