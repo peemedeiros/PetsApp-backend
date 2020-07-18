@@ -25,4 +25,9 @@ class Servico extends Model
         return $this->hasMany(ServicoFotos::class);
     }
 
+    public function agendamento()
+    {
+        return $this->hasMany(AgendamentoServico::class);
+    }
+
 }

@@ -20,9 +20,24 @@ class User extends Authenticatable implements JWTSubject
         'password',
     ];
 
+    public function endereco()
+    {
+        return $this->hasMany(EnderecoCliente::class);
+    }
+
+    public function animal()
+    {
+        return $this->hasMany(Animal::class);
+    }
+
     public function empresa()
     {
       return $this->hasOne(Empresa::class);
+    }
+
+    public function agendamento()
+    {
+        return $this->hasOne(AgendamentoServico::class);
     }
 
     public function getJWTIdentifier()

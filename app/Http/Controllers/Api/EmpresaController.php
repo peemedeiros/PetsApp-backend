@@ -19,7 +19,7 @@ class EmpresaController extends Controller
 
     public function index()
     {
-        $empresas = auth('api')->user()->empresa()->with('foto');
+        $empresas = auth('api')->user()->empresa()->with('foto', 'categoria');
 
         return response()->json($empresas->paginate(10), 200);
     }

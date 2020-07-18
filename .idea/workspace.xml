@@ -1,12 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4eba5c85-3f83-4d70-932d-e328f610bf18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/AgendamentoServico.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Animal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/EnderecoCliente.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Especie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AgendamentoServicoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AnimalController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/EnderecoClienteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/EspecieController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_16_005207_create_especies_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_16_005357_create_endereco_clientes_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_16_005514_create_animals_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_16_011450_create_agendamento_servico_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_18_021055_create_table_servicos_agendamentos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ServicoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ServicoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_26_231741_create_table_empresa_foto.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_26_231741_create_table_empresa_foto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_02_234950_create_servicos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_02_234950_create_servicos_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_03_000321_create_servico_fotos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_03_000321_create_servico_fotos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoriaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoriaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/EmpresaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/EmpresaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Servico.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Servico.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +60,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,17 +178,17 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../laravel/ProjetoCMS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -200,11 +243,30 @@
       <workItem from="1594139645346" duration="2016000" />
       <workItem from="1594312432564" duration="4478000" />
       <workItem from="1594666576743" duration="595000" />
+      <workItem from="1594854902318" duration="336000" />
+      <workItem from="1594856334316" duration="9430000" />
+      <workItem from="1594922206914" duration="9024000" />
+      <workItem from="1594936556566" duration="4817000" />
+      <workItem from="1594953140591" duration="1089000" />
+      <workItem from="1595006361526" duration="4644000" />
+      <workItem from="1595029362997" duration="11690000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -218,29 +280,29 @@
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="94" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.728@0.0.1280.728" timestamp="1593894524429" />
-    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1593891950378">
+    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1595033753208">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.728@0.0.1280.728" timestamp="1593891950378" />
-    <state x="420" y="118" key="FileChooserDialogImpl" timestamp="1594330533764">
+    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.728@0.0.1280.728" timestamp="1595033753208" />
+    <state x="420" y="118" key="FileChooserDialogImpl" timestamp="1594861371830">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="420" y="118" key="FileChooserDialogImpl/0.0.1280.728@0.0.1280.728" timestamp="1594330533764" />
+    <state x="420" y="118" key="FileChooserDialogImpl/0.0.1280.728@0.0.1280.728" timestamp="1594861371830" />
     <state x="368" y="178" key="NewPhpClassDialog" timestamp="1590538023148">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="368" y="178" key="NewPhpClassDialog/0.0.1280.728@0.0.1280.728" timestamp="1590538023148" />
-    <state x="141" y="6" key="SettingsEditor" timestamp="1590884656861">
+    <state x="141" y="6" key="SettingsEditor" timestamp="1594856661817">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="141" y="6" key="SettingsEditor/0.0.1280.728@0.0.1280.728" timestamp="1590884656861" />
-    <state x="296" y="162" key="run.anything.popup" timestamp="1593315357922">
+    <state x="141" y="6" key="SettingsEditor/0.0.1280.728@0.0.1280.728" timestamp="1594856661817" />
+    <state x="296" y="162" key="run.anything.popup" timestamp="1594928468209">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="296" y="162" key="run.anything.popup/0.0.1280.728@0.0.1280.728" timestamp="1593315357922" />
-    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup" timestamp="1593194347984">
+    <state x="296" y="162" key="run.anything.popup/0.0.1280.728@0.0.1280.728" timestamp="1594928468209" />
+    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup" timestamp="1595033064947">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup/0.0.1280.728@0.0.1280.728" timestamp="1593194347984" />
+    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup/0.0.1280.728@0.0.1280.728" timestamp="1595033064947" />
   </component>
 </project>

@@ -3,40 +3,37 @@
 namespace App\Http\Controllers\Api;
 
 use App\Api\ApiMessages;
-use App\Categoria;
-use App\Http\Controllers\Controller;
+use App\Especie;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
-class CategoriaController extends Controller
+class EspecieController extends Controller
 {
 
-    private $categoria;
-
-    public function __construct(Categoria $categoria)
+    public function __construct(Especie $especie)
     {
-        $this->categoria = $categoria;
+        $this->especie = $especie;
     }
 
     public function index()
     {
-        $caterogias = $this->categoria->paginate(10);
-        return response()->json($caterogias, 200);
+        $especies = $this->especie->paginate(10);
+        return response()->json($especies, 200);
     }
-
 
 
     public function store(Request $request)
     {
-        $data =$request->all();
+        $data = $request->all();
         try{
-            $categoria = $this->categoria->create($data);
+            $this->especie->create($data);
 
             return response()->json([
                 'data' => [
-                    'msg' => 'Categoria cadastrada com sucesso!'
+                    'msg' => 'Espécie cadastrada com sucesso !'
                 ]
             ], 201);
-        } catch (\Exception $e) {
+        } catch (\Exception $e){
             $message = new ApiMessages($e->getMessage());
             return response()->json($message->getMessage(), 401);
         }
@@ -46,33 +43,32 @@ class CategoriaController extends Controller
     {
         try{
 
-            $categoria = $this->categoria->findOrFail($id);
+            $especie = $this->especie->findOrFail($id);
 
             return response()->json([
-                'data' => $categoria
+                'data' => $especie
             ], 200);
 
-        }catch (\Exception $e){
+        } catch (\Exception $e){
             $message = new ApiMessages($e->getMessage());
             return response()->json($message->getMessage(), 401);
         }
     }
-
 
     public function update(Request $request, $id)
     {
         $data = $request->all();
 
         try{
-            $categoria = $this->categoria->findOrFail($id);
-            $categoria->update($data);
+
+            $especie = $this->especie->findOrFail($id);
+            $especie->update($data);
 
             return response()->json([
                 'data' => [
-                    'msg' => 'Categoria atualizada com sucesso!'
+                    'msg' => 'Espécie atualizada com sucesso !'
                 ]
-            ]);
-
+            ], 200);
         } catch (\Exception $e){
             $message = new ApiMessages($e->getMessage());
             return response()->json($message->getMessage(), 401);
@@ -82,30 +78,15 @@ class CategoriaController extends Controller
     public function destroy($id)
     {
         try{
-            $categoria = $this->categoria->findOrFail($id);
-            $categoria->delete();
+            $especie = $this->especie->findOrFail($id);
+            $especie->delete();
 
             return response()->json([
                 'data' => [
-                    'msg' => 'Categoria excluida'
+                    'msg' => 'Espécie atualizada com sucesso !'
                 ]
             ], 204);
         } catch (\Exception $e){
-            $message = new ApiMessages($e->getMessage());
-            return response()->json($message->getMessage(), 401);
-        }
-    }
-
-    public function empresa($id)
-    {
-        try{
-            $categoria = $this->categoria->findOrFail($id);
-
-            return response()->json([
-                'data' => $categoria->empresa
-            ], 200);
-
-        } catch (\Exception $e) {
             $message = new ApiMessages($e->getMessage());
             return response()->json($message->getMessage(), 401);
         }

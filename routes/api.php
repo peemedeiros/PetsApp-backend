@@ -45,5 +45,24 @@ Route::prefix('v1')->namespace('Api')->group(function (){
             Route::get('servicos/empresa/{id}', 'ServicoController@all');
             Route::resource('servicos', 'ServicoController');
         });
+
+        //Rotas Especies
+        Route::name('especies.')->group(function(){
+           Route::resource('especies', 'EspecieController');
+        });
+
+        //Rotas Animais
+        Route::name('animais.')->group(function(){
+            Route::resource('animais', 'AnimalController');
+        });
+
+        //Rotas Endereco
+        Route::name('enderecos.')->group(function(){
+            Route::resource('enderecos', 'EnderecoClienteController');
+        });
+
+        Route::name('agendamentos.')->group(function(){
+            Route::resource('agendamentos', 'AgendamentoServicoController');
+        });
     });
 });
