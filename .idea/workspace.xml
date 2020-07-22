@@ -33,25 +33,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eba5c85-3f83-4d70-932d-e328f610bf18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/AgendamentoServico.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Animal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/EnderecoCliente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Especie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AgendamentoServicoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AnimalController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/EnderecoClienteController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/EspecieController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_16_005207_create_especies_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_16_005357_create_endereco_clientes_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_16_005514_create_animals_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_16_011450_create_agendamento_servico_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_18_021055_create_table_servicos_agendamentos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoriaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CategoriaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/EmpresaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/EmpresaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Servico.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Servico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,6 +232,9 @@
       <workItem from="1594953140591" duration="1089000" />
       <workItem from="1595006361526" duration="4644000" />
       <workItem from="1595029362997" duration="11690000" />
+      <workItem from="1595277237375" duration="2568000" />
+      <workItem from="1595345636868" duration="596000" />
+      <workItem from="1595433939283" duration="607000" />
     </task>
     <servers />
   </component>
