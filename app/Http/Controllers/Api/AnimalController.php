@@ -21,6 +21,12 @@ class AnimalController extends Controller
         return response()->json($animais, 200);
     }
 
+    public function all($id)
+    {
+        $animais = $this->animal->where('user_id', '=', $id)->get();
+        return response()->json($animais, 200);
+    }
+
     public function store(Request $request)
     {
         $data = $request->all();

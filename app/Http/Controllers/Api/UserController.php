@@ -65,7 +65,7 @@ class UserController extends Controller
 
         try{
 
-            $user = $this->user->findOrFail($id);
+            $user = $this->user->with('endereco')->findOrFail($id);
 
             if($id == auth('api')->id()){
 

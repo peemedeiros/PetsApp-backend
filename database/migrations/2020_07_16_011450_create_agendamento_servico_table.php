@@ -17,6 +17,7 @@ class CreateAgendamentoServicoTable extends Migration
             $table->bigIncrements('id');
 
             $table->unsignedBigInteger('user_id');
+            $table->unsignedBigInteger('empresa_id');
             $table->unsignedBigInteger('animal_id');
             $table->unsignedBigInteger('endereco_id');
 
@@ -28,6 +29,7 @@ class CreateAgendamentoServicoTable extends Migration
             $table->date('data_agendamento');
 
             $table->foreign('user_id')->references('id')->on('users');
+            $table->foreign('empresa_id')->references('id')->on('empresa');
             $table->foreign('animal_id')->references('id')->on('animals');
             $table->foreign('endereco_id')->references('id')->on('endereco_clientes');
 

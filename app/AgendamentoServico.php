@@ -11,7 +11,7 @@ class AgendamentoServico extends Model
     protected $table = 'agendamento_servico';
 
     protected $fillable = [
-        "user_id","animal_id","endereco_id",
+        "user_id","animal_id","endereco_id","empresa_id",
         "transporte", "valor_transporte", "valor_total", "status",
         "data_agendamento"
     ];
@@ -34,6 +34,11 @@ class AgendamentoServico extends Model
     public function endereco()
     {
         return $this->hasOne(EnderecoCliente::class, 'endereco_id');
+    }
+
+    public function empresa()
+    {
+        return $this->belongsTo(Empresa::class, 'empresa_id');
     }
 
 }

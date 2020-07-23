@@ -16,7 +16,7 @@ class AgendamentoServicoController extends Controller
 
     public function index()
     {
-        $agendamentosServicos = $this->agendamentoServico->with('user', 'animal', 'servico')->paginate(10);
+        $agendamentosServicos = auth('api')->user()->agendamento()->with('user', 'animal', 'servico','empresa')->paginate(10);
         return response()->json($agendamentosServicos, 200);
     }
 
@@ -25,16 +25,10 @@ class AgendamentoServicoController extends Controller
     {
         $data = $request->all();
 
-        var_dump($data['servicos']);
-
         try{
             $data['user_id'] = auth('api')->user()->id;
 
             $agendamentoServico = $this->agendamentoServico->create($data);
-
-//            $servicosArr = explode(',', $data['servicos']);
-//
-//            var_dump("AQUIIII ".$servicosArr);
 
             if(isset($data['servicos']) && count($data['servicos'])){
                 $agendamentoServico->servico()->sync($data['servicos']);

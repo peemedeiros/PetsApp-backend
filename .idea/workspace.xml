@@ -34,6 +34,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4eba5c85-3f83-4d70-932d-e328f610bf18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AgendamentoServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AgendamentoServico.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Empresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Empresa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AgendamentoServicoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AgendamentoServicoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AnimalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AnimalController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_16_011450_create_agendamento_servico_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_16_011450_create_agendamento_servico_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +241,7 @@
       <workItem from="1595029362997" duration="11690000" />
       <workItem from="1595277237375" duration="2568000" />
       <workItem from="1595345636868" duration="596000" />
-      <workItem from="1595433939283" duration="607000" />
+      <workItem from="1595433939283" duration="17767000" />
     </task>
     <servers />
   </component>
@@ -285,9 +292,9 @@
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="296" y="162" key="run.anything.popup/0.0.1280.728@0.0.1280.728" timestamp="1594928468209" />
-    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup" timestamp="1595033064947">
+    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup" timestamp="1595451015916">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup/0.0.1280.728@0.0.1280.728" timestamp="1595033064947" />
+    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup/0.0.1280.728@0.0.1280.728" timestamp="1595451015916" />
   </component>
 </project>

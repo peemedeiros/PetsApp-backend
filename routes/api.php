@@ -53,6 +53,7 @@ Route::prefix('v1')->namespace('Api')->group(function (){
 
         //Rotas Animais
         Route::name('animais.')->group(function(){
+            Route::get('animais/user/{id}', 'AnimalController@all');
             Route::resource('animais', 'AnimalController');
         });
 
