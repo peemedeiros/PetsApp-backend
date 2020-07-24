@@ -64,7 +64,12 @@ Route::prefix('v1')->namespace('Api')->group(function (){
 
         Route::name('agendamentos.')->group(function(){
             Route::put('agendamentos/{id}', 'AgendamentoServicoController@aceitarServico');
+            Route::put('agendamentos/pagamento/{id}', 'AgendamentoServicoController@pagarAgendamento');
             Route::resource('agendamentos', 'AgendamentoServicoController');
+        });
+
+        Route::name('pagamentos')->group(function (){
+            Route::resource('pagamentos', 'MetodoPagamentoController');
         });
     });
 });

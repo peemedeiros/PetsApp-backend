@@ -95,4 +95,25 @@ class AgendamentoServicoController extends Controller
         }
     }
 
+    public function pagarAgendamento(Request $request, $id)
+    {
+        $data = $request->all();
+
+        try{
+            $agendamento = $this->agendamentoServico->findOrFail($id);
+            $agendamento->update($data);
+
+            return response()->json([
+                'data' => [
+                    'msg' => 'Pagamento realizado com atualizado com sucesso!',
+                    'agendamento' => $agendamento
+                ]
+            ], 200);
+
+        } catch (\Exception $e) {
+            $message = new ApiMessages($e->getMessage());
+            return response()->json($message->getMessage(), 400);
+        }
+    }
+
 }

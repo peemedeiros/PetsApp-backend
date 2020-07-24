@@ -26,6 +26,7 @@ class CreateAgendamentoServicoTable extends Migration
 
             $table->decimal('valor_total', 8, 2);
             $table->boolean('status')->default(0);
+            $table->boolean('status_pagamento')->default(0);
             $table->date('data_agendamento');
 
             $table->foreign('user_id')->references('id')->on('users');

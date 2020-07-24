@@ -33,8 +33,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eba5c85-3f83-4d70-932d-e328f610bf18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/MetodoPagamentoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/MetodoPagamento.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_24_171516_create_metodo_pagamento_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AgendamentoServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AgendamentoServico.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AgendamentoServicoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AgendamentoServicoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ServicoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ServicoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_16_011450_create_agendamento_servico_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_16_011450_create_agendamento_servico_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -238,6 +244,8 @@
       <workItem from="1595345636868" duration="596000" />
       <workItem from="1595433939283" duration="17767000" />
       <workItem from="1595524239913" duration="7573000" />
+      <workItem from="1595560700168" duration="162000" />
+      <workItem from="1595609130326" duration="5711000" />
     </task>
     <servers />
   </component>
@@ -268,10 +276,10 @@
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="94" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.728@0.0.1280.728" timestamp="1593894524429" />
-    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1595033753208">
+    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1595612008933">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.728@0.0.1280.728" timestamp="1595033753208" />
+    <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.728@0.0.1280.728" timestamp="1595612008933" />
     <state x="420" y="118" key="FileChooserDialogImpl" timestamp="1594861371830">
       <screen x="0" y="0" width="1280" height="728" />
     </state>

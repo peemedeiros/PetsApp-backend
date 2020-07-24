@@ -19,13 +19,13 @@ class ServicoController extends Controller
 
     public function index()
     {
-        $servicos = $this->servico->paginate('10');
+        $servicos = $this->servico->with('foto')->paginate('10');
         return response()->json($servicos, 200);
     }
 
     public function all($id)
     {
-        $servicos = $this->servico->where('id_empresa', '=', $id)->get();
+        $servicos = $this->servico->with('foto')->where('id_empresa', '=', $id)->get();
         return response()->json($servicos, 200);
     }
 

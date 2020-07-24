@@ -13,7 +13,7 @@ class AgendamentoServico extends Model
     protected $fillable = [
         "user_id","animal_id","endereco_id","empresa_id",
         "transporte", "valor_transporte", "valor_total", "status",
-        "data_agendamento"
+        "status_pagamento", "data_agendamento"
     ];
 
     public function user()
