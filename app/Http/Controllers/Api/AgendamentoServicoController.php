@@ -16,7 +16,7 @@ class AgendamentoServicoController extends Controller
 
     public function index()
     {
-        $agendamentosServicos = auth('api')->user()->agendamento()->with('user', 'animal', 'servico','empresa')->paginate(10);
+        $agendamentosServicos = auth('api')->user()->agendamento()->with('user', 'animal', 'servico','empresa')->paginate(20);
         return response()->json($agendamentosServicos, 200);
     }
 
@@ -74,4 +74,25 @@ class AgendamentoServicoController extends Controller
     {
         //
     }
+
+    public function aceitarServico(Request $request, $id)
+    {
+        $data = $request->all();
+
+        try{
+            $agendamento = $this->agendamentoServico->findOrFail($id);
+            $agendamento->update($data);
+
+            return response()->json([
+                'data' => [
+                    'msg' => 'status atualizado com sucesso!'
+                ]
+            ], 200);
+
+        } catch (\Exception $e) {
+            $message = new ApiMessages($e->getMessage());
+            return response()->json($message->getMessage(), 400);
+        }
+    }
+
 }

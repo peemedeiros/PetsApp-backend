@@ -63,6 +63,7 @@ Route::prefix('v1')->namespace('Api')->group(function (){
         });
 
         Route::name('agendamentos.')->group(function(){
+            Route::put('agendamentos/{id}', 'AgendamentoServicoController@aceitarServico');
             Route::resource('agendamentos', 'AgendamentoServicoController');
         });
     });

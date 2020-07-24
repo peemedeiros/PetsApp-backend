@@ -34,12 +34,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4eba5c85-3f83-4d70-932d-e328f610bf18" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/AgendamentoServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AgendamentoServico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Empresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Empresa.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AgendamentoServicoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AgendamentoServicoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AnimalController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AnimalController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_16_011450_create_agendamento_servico_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_16_011450_create_agendamento_servico_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -242,6 +237,7 @@
       <workItem from="1595277237375" duration="2568000" />
       <workItem from="1595345636868" duration="596000" />
       <workItem from="1595433939283" duration="17767000" />
+      <workItem from="1595524239913" duration="7573000" />
     </task>
     <servers />
   </component>
