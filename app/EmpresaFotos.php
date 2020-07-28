@@ -17,4 +17,5 @@ class EmpresaFotos extends Model
     {
         return $this->belongsTo(Empresa::class);
     }
+
 }

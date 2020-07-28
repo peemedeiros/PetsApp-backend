@@ -15,6 +15,7 @@ Route::prefix('v1')->namespace('Api')->group(function (){
     Route::get('logout', 'Auth\\LoginJwtController@logout')->name('logout');
     Route::get('refresh', 'Auth\\LoginJwtController@refresh')->name('refresh');
     Route::get('empresas-cadastradas', 'EmpresaController@all')->name('empresas-cadastradas');
+    Route::get('categorias/{id}/empresas', 'CategoriaController@empresa');
 
     Route::group(['middleware' => ['jwt.auth']], function (){
 
@@ -31,7 +32,7 @@ Route::prefix('v1')->namespace('Api')->group(function (){
 
         //Rotas Categoria
         Route::name('categorias.')->group(function () {
-            Route::get('categorias/{id}/empresas', 'CategoriaController@empresa');
+
             Route::resource('categorias', 'CategoriaController');
         });
 
@@ -63,6 +64,7 @@ Route::prefix('v1')->namespace('Api')->group(function (){
         });
 
         Route::name('agendamentos.')->group(function(){
+            Route::get('agendamentos/empresa/{id}', 'AgendamentoServicoController@all');
             Route::put('agendamentos/{id}', 'AgendamentoServicoController@aceitarServico');
             Route::put('agendamentos/pagamento/{id}', 'AgendamentoServicoController@pagarAgendamento');
             Route::resource('agendamentos', 'AgendamentoServicoController');

@@ -33,15 +33,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eba5c85-3f83-4d70-932d-e328f610bf18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/MetodoPagamentoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/MetodoPagamento.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_07_24_171516_create_metodo_pagamento_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/Auth/LoginJwtControllerTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/AgendamentoServico.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AgendamentoServico.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Empresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Empresa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/EmpresaFotos.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/EmpresaFotos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AgendamentoServicoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AgendamentoServicoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ServicoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ServicoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_16_011450_create_agendamento_servico_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_16_011450_create_agendamento_servico_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Http/Controllers/Api/UserControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +181,7 @@
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -245,7 +248,11 @@
       <workItem from="1595433939283" duration="17767000" />
       <workItem from="1595524239913" duration="7573000" />
       <workItem from="1595560700168" duration="162000" />
-      <workItem from="1595609130326" duration="5711000" />
+      <workItem from="1595609130326" duration="19094000" />
+      <workItem from="1595695022958" duration="449000" />
+      <workItem from="1595871284886" duration="523000" />
+      <workItem from="1595871829301" duration="4731000" />
+      <workItem from="1595957418289" duration="6692000" />
     </task>
     <servers />
   </component>
@@ -280,25 +287,25 @@
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="370" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.728@0.0.1280.728" timestamp="1595612008933" />
-    <state x="420" y="118" key="FileChooserDialogImpl" timestamp="1594861371830">
+    <state x="420" y="118" key="FileChooserDialogImpl" timestamp="1595695473015">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="420" y="118" key="FileChooserDialogImpl/0.0.1280.728@0.0.1280.728" timestamp="1594861371830" />
+    <state x="420" y="118" key="FileChooserDialogImpl/0.0.1280.728@0.0.1280.728" timestamp="1595695473015" />
     <state x="368" y="178" key="NewPhpClassDialog" timestamp="1590538023148">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="368" y="178" key="NewPhpClassDialog/0.0.1280.728@0.0.1280.728" timestamp="1590538023148" />
-    <state x="141" y="6" key="SettingsEditor" timestamp="1594856661817">
+    <state x="141" y="6" key="SettingsEditor" timestamp="1595877406370">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="141" y="6" key="SettingsEditor/0.0.1280.728@0.0.1280.728" timestamp="1594856661817" />
+    <state x="141" y="6" key="SettingsEditor/0.0.1280.728@0.0.1280.728" timestamp="1595877406370" />
     <state x="296" y="162" key="run.anything.popup" timestamp="1594928468209">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
     <state x="296" y="162" key="run.anything.popup/0.0.1280.728@0.0.1280.728" timestamp="1594928468209" />
-    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup" timestamp="1595451015916">
+    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup" timestamp="1595969698284">
       <screen x="0" y="0" width="1280" height="728" />
     </state>
-    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup/0.0.1280.728@0.0.1280.728" timestamp="1595451015916" />
+    <state x="303" y="49" width="672" height="676" key="search.everywhere.popup/0.0.1280.728@0.0.1280.728" timestamp="1595969698284" />
   </component>
 </project>

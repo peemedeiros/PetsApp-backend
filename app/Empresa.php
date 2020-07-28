@@ -38,4 +38,5 @@ class Empresa extends Model
     {
         return $this->hasMany(AgendamentoServico::class, 'empresa_id');
     }
+
 }

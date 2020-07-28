@@ -4,19 +4,29 @@ namespace App\Http\Controllers\Api;
 
 use App\AgendamentoServico;
 use App\Api\ApiMessages;
+use App\Empresa;
+use App\EmpresaFotos;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class AgendamentoServicoController extends Controller
 {
-    public function __construct(AgendamentoServico $agendamentoServico)
+    public function __construct(AgendamentoServico $agendamentoServico, EmpresaFotos $empresaFotos)
     {
         $this->agendamentoServico = $agendamentoServico;
+        $this->empresaFotos = $empresaFotos;
     }
 
     public function index()
     {
         $agendamentosServicos = auth('api')->user()->agendamento()->with('user', 'animal', 'servico','empresa')->paginate(20);
+        return response()->json($agendamentosServicos, 200);
+    }
+
+    public function all($id)
+    {
+        $agendamentosServicos = $this->agendamentoServico->with('user', 'animal', 'servico', 'empresa')->where('empresa_id', '=', $id)->get();
+        $empresaFoto = $this->empresaFotos->where('empresa_id', '=', $id)->get();
         return response()->json($agendamentosServicos, 200);
     }
 

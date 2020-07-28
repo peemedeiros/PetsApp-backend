@@ -41,4 +41,10 @@ class AgendamentoServico extends Model
         return $this->belongsTo(Empresa::class, 'empresa_id');
     }
 
+    public function foto()
+    {
+        return $this->hasManyThrough(EmpresaFotos::class,Empresa::class, 'id');
+    }
+
+
 }

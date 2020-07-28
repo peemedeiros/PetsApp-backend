@@ -50,7 +50,7 @@ class UserController extends Controller
 
             return  response()->json([
                 'data' => [
-                    'msg' => 'Usuário cadastrado com sucesso!'
+                    'msg' => 'Usuário cadastrado com sucesso!',
                 ]
             ], 201);
 
